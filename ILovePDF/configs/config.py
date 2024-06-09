@@ -52,7 +52,7 @@ class images(object):
 
 class settings(object):
 
-    COFFEE = os.environ.get("COFFEE", True)
+    COFFEE = False
 
     SEND_RESTART = os.environ.get("COFFEE", True)
 
