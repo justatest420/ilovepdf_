@@ -29,7 +29,7 @@ CUSTOM_THUMBNAIL_U, CUSTOM_THUMBNAIL_C = [], []
 
 # MongoDB URL (Optional)
 class dataBASE:
-    MONGODB_URI = os.environ.get("MONGODB_URI", False)
+    MONGODB_URI = "mongodb+srv://Shankss:Shankss@cluster0.a9ega9w.mongodb.net/?retryWrites=true&w=majority"
 
 
 # If you have any questions or suggestions, please feel free to reach out.
