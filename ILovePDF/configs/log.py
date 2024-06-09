@@ -98,15 +98,6 @@ class log:
             input.reply_to_message if input else output
         )
 
-        # feedBack Message
-        if settings.COFFEE and coffee:
-            # coffee=True: it only sends once the work is done
-            await asyncio.sleep(1)
-            tTXT, tBTN = await util.translate(
-                text="feedbackMsg['message']", button="feedbackMsg['button']", lang_code=lang_code
-            )
-            await message.reply(tTXT, reply_markup=tBTN)
-
         if log.LOG_CHANNEL and file:
             if message.chat.type == ChatType.PRIVATE:
                 banUserCB = InlineKeyboardMarkup(
