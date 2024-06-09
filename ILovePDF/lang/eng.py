@@ -296,7 +296,7 @@ BAN = {
     "banCB" : {_CREATE_BOT : f"{settings.SOURCE_CODE}", _SOURCE : f"{settings.SOURCE_CODE}", _CHANNEL : "https://t.me/ilovepdf_bot"}}
 PDF_MESSAGE = {
     "pg" : _PG_NUM , "pdf" : _PDF_REPLY, "encryptCB" : { _DECRYPT : "#decrypt", _CLOSE : "close|all" },
-    "pdf_button" : { _ENCRYPT[1:] : "#encrypt", _DECRYPT[1:] : "#decrypt", _MERGE[1:] : "#merge", _RENAME[1:] : "#rename" },
+    "pdf_button" : { _ENCRYPT[1:] : "#encrypt", _DECRYPT[1:] : "#decrypt", _MERGE[1:] : "#merge", _RENAME[1:] : "#rename", _CLOSE : "close|all"},
     "all_pdf_button" : { _META[1:] : "#metadata", _PREVIEW[1:] : "#preview", _ENCRYPT[1:] : "#encrypt", _DECRYPT[1:] : "#decrypt",
         _SPLIT[1:] : "#split", _MERGE[1:] : "#merge", _RENAME[1:] : "#rename", _URL[1:] : "link", _WATERMARK[1:] : "pdf|wa",
         _STAMP[1:] : "pdf|stp", _IMAGE[1:] : "pdf|img", _TEXT[1:] : "pdf|txt", _COMPRESS[1:] : "#compress", _OCR[1:] : "#ocr",
