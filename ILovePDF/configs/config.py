@@ -8,11 +8,11 @@ import os
 
 class bot(object):
     # get API_ID, API_HASH values from my.telegram.org (Mandatory)
-    API_ID = os.environ.get("API_ID")
-    API_HASH = os.environ.get("API_HASH")
+    API_ID = "18208497"
+    API_HASH = "b9f8cdba86d3406944419974334e34d5"
 
     # add API_TOKEN from @botfather (Mandatory)
-    API_TOKEN = os.environ.get("API_TOKEN")
+    API_TOKEN = "7281652255:AAFKp62HHrX8JhivV_8gwbq_AuHbHFPpj4U"
 
 class dm(object):
     # add admins Id list by space separated (Optional)
